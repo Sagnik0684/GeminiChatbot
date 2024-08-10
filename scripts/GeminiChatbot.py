@@ -95,7 +95,7 @@ def HomePage(**kwargs) :
         )
 
         st.sidebar.success("Select a feature for use.")
-        st.sidebar.image("scripts//assets//Gemini.jpg", use_column_width=True)
+        st.sidebar.image("scripts/assets/Gemini.jpg", use_column_width=True)
 
         # google_gemini_api_key = st.sidebar.text_input(
         #     "Enter your Google Gemini API Key.", 
